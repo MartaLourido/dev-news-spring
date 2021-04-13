@@ -24,8 +24,9 @@ You will need to configure the following dependencies in your `build.gradle`:
 * Spring JPA
 * PostgreSQL Driver
 
-Properties configuration 
------
+#####Dependencies configuration 
+____
+
 
 `src/main/resources/application.properties` should also be properly configured:
 ```properties
@@ -40,8 +41,9 @@ spring.jpa.generate-ddl=true
 spring.jpa.hibernate.ddl-auto=create
 ```
 
-Run the project
------
+#####Run the project
+____
+
 - Clone and open in Intellij Idea IDE
 - Change database connection config in `src/main/resources/application.properties`
 - Install gradle dependencies
