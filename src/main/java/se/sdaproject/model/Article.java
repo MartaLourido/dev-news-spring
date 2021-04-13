@@ -21,14 +21,11 @@ public class Article {
     @Column(nullable = false)
     private String authorName;
 
-
     @ManyToMany()
     private List<Topics> topics;
 
-
     @OneToMany(mappedBy = "article")
     private List<Comments> comments;
-
 
     public Long getId() {
         return id;
