@@ -40,7 +40,6 @@ public class ArticleController {
     }
 
     //PUT	/articles/{id}	update the given article.
-
     @PutMapping("/articles/{id}")
     Article updateArticle(@RequestBody Article updatedArticle) {
         return articleService.update(updatedArticle);
