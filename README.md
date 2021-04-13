@@ -1,5 +1,5 @@
 
-![logo](src/logo.png)
+![logo](src/Image/logo.png)
 
 ## Introduction
 In this project I have built the backend API for a news site for developers where users can create articles with topics and comments.  It doesn't require a GUI, so it's enough to be able to make requests and get plain json text responses via curl/Postman.
@@ -10,12 +10,13 @@ In this project I have built the backend API for a news site for developers wher
 * Learn about data modelling for real world applications.
 * Learn how to interact with a relational database using an ORM tool implementing Spring JPA (Hibernate).
 
-## Build with
+## Technologies used
 
-- Gradle
-- JDK 15
-- JUnit
-
+- Spring Web
+- Spring JPA
+- PostgreSQL Driver
+- Postman
+- Docker
 
 ## Setup
 Remember that you will need to configure the following dependencies in your `build.gradle`:
@@ -23,6 +24,8 @@ Remember that you will need to configure the following dependencies in your `bui
 * Spring JPA
 * PostgreSQL Driver
 
+Properties configuration 
+-----
 
 `src/main/resources/application.properties` should also be properly configured:
 ```properties
@@ -37,6 +40,13 @@ spring.jpa.generate-ddl=true
 spring.jpa.hibernate.ddl-auto=create
 ```
 
+Run the project
+-----
+- Clone and open in Intellij Idea IDE
+- Change database connection config in `src/main/resources/application.properties`
+- Install gradle dependencies
+- Run the app using ``./gradlew bootRun``
+- Browse ``http//localhost:8080/``
 
 API Doc & Sample
 ----------------
@@ -138,7 +148,8 @@ Endpoints:
 
 Note
 -----
-For getting XML response use ``Accept`` header ``application/xml`` and ``application/json`` for JSON response.
+
+You can test the performance of these endpoints in Postman
 
 ## About
 
@@ -148,3 +159,6 @@ I am a junior programmer and this is my first project and this project was done 
 &nbsp;
 
 [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/MartaLourido)
+
+
+Copyright (c) [2021] [Marta Lourido]
