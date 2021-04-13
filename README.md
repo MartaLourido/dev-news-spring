@@ -46,7 +46,7 @@ Run the project
 - Change database connection config in `src/main/resources/application.properties`
 - Install gradle dependencies
 - Run the app using ``./gradlew bootRun``
-- Browse ``http//localhost:8080/``
+- Browse ``http//localhost:8080``
 
 API Doc & Sample
 ----------------
