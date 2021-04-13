@@ -65,7 +65,7 @@ Example JSON response when requesting an article:
 }
 ```
 
-These are the endpoints for the article API that should exist:
+These are the endpoints for the article API:
 | HTTP Method | HTTP Path | Action |
 | ------------|-----------|--------|
 | `GET`    | `/articles`      | return all articles. |
@@ -108,7 +108,7 @@ With the following endpoints:
 ### Topics
 We want to categorize our articles by topics. Each topic can be applied to zero or many articles and each article can have zero or many topics.
 
-Example JSON response when requesting an article should now be:
+Example JSON response when requesting an article:
 
 ```json
 {
@@ -153,7 +153,7 @@ You can test the performance of these endpoints in Postman
 
 ## About
 
-I am a junior programmer and this is my first project and this project was done during the backend module for the KTH Software Development Academy.
+I am a junior programmer and this project was done during the backend module for the KTH Software Development Academy.
 
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/marta-louridob/?locale=en_US/)
 &nbsp;
