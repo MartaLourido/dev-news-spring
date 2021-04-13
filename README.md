@@ -19,7 +19,7 @@ In this project I have built the backend API for a news site for developers wher
 - Docker
 
 ## Setup
-Remember that you will need to configure the following dependencies in your `build.gradle`:
+You will need to configure the following dependencies in your `build.gradle`:
 * Spring Web
 * Spring JPA
 * PostgreSQL Driver
